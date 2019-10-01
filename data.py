@@ -3,9 +3,7 @@ import random
 from collections import OrderedDict
 import pickle
 import gzip
-
 import sentencepiece as spm
-
 from typing import List
 
 def split_data(raw_file, out_file, piece_length):
